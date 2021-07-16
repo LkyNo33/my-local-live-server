@@ -1,0 +1,618 @@
+﻿
+<!DOCTYPE html>
+<!---------------------------------------------------------------------------------------------- H T M L ---->
+<html>
+<!--------------------------------------------------------------------------------------------- H E A D ---->
+<head>
+<!-------------------------------------------------------------------------------------------- M E T A ---->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!------------------------------------------------------------------------------------------ S C R I P T --->
+<script>
+    /*-------------------------------------------------------------------------------- F U N C T I O N S ---*/
+    /*--------------------------------------------- H I G H _ L I G H T ---*/
+    function highlight_name() {
+        document.getElementById("name").style.color = "lime";
+        document.getElementById("name").style.backgroundColor = "black";
+    }
+
+    function highlight_about() {
+        document.getElementById("about").style.color = "lime";
+        document.getElementById("about").style.backgroundColor = "black";
+    }
+
+    function highlight_scroll() {
+        document.getElementById("scroll").style.color = "lime";
+        document.getElementById("scroll").style.backgroundColor = "black";
+    }
+
+    function highlight_unc() {
+        document.getElementById("unc").style.color = "lime";
+        document.getElementById("unc").style.backgroundColor = "black";
+        document.getElementById("uncc").style.color = "lime";
+        document.getElementById("uncc").style.backgroundColor = "black";
+        document.getElementById("unccc").style.color = "lime";
+        document.getElementById("unccc").style.backgroundColor = "black";
+        document.getElementById("uncccc").style.color = "lime";
+        document.getElementById("uncccc").style.backgroundColor = "black";
+    }
+
+    function highlight_sandc() {
+        document.getElementById("sandc").style.color = "lime";
+        document.getElementById("sandc").style.backgroundColor = "black";
+    }
+
+    function highlight_skills_list() {
+        document.getElementById("skills_list").style.color = "lime";
+        document.getElementById("skills_list").style.backgroundColor = "black";
+        document.getElementById("sdlc").style.color = "lime";
+        document.getElementById("sdlc").style.backgroundColor = "black";
+        document.getElementById("install").style.color = "lime";
+        document.getElementById("install").style.backgroundColor = "black";
+        document.getElementById("config").style.color = "lime";
+        document.getElementById("config").style.backgroundColor = "black";
+        document.getElementById("trouble").style.color = "lime";
+        document.getElementById("trouble").style.backgroundColor = "black";
+        document.getElementById("micro").style.color = "lime";
+        document.getElementById("micro").style.backgroundColor = "black";
+        document.getElementById("thycotic").style.color = "lime";
+        document.getElementById("thycotic").style.backgroundColor = "black";
+        document.getElementById("google").style.color = "lime";
+        document.getElementById("google").style.backgroundColor = "black";
+        document.getElementById("adobe").style.color = "lime";
+        document.getElementById("adobe").style.backgroundColor = "black";
+        document.getElementById("audio").style.color = "lime";
+        document.getElementById("audio").style.backgroundColor = "black";
+    }
+
+    function highlight_infotech() {
+        document.getElementById("infotech").style.color = "lime";
+        document.getElementById("infotech").style.backgroundColor = "black";
+        document.getElementById("ebiz").style.color = "lime";
+        document.getElementById("ebiz").style.backgroundColor = "black";
+        document.getElementById("data_man").style.color = "lime";
+        document.getElementById("data_man").style.backgroundColor = "black";
+        document.getElementById("data_com").style.color = "lime";
+        document.getElementById("data_com").style.backgroundColor = "black";
+        document.getElementById("infosys").style.color = "lime";
+        document.getElementById("infosys").style.backgroundColor = "black";
+        document.getElementById("info_sec").style.color = "lime";
+        document.getElementById("info_sec").style.backgroundColor = "black";
+    }
+
+    function highlight_bizadmin() {
+        document.getElementById("stra_man").style.color = "lime";
+        document.getElementById("stra_man").style.backgroundColor = "black";
+        document.getElementById("op_man").style.color = "lime";
+        document.getElementById("op_man").style.backgroundColor = "black";
+        document.getElementById("man_econ").style.color = "lime";
+        document.getElementById("man_econ").style.backgroundColor = "black";
+        document.getElementById("fin_man").style.color = "lime";
+        document.getElementById("fin_man").style.backgroundColor = "black";
+        document.getElementById("man_org").style.color = "lime";
+        document.getElementById("man_org").style.backgroundColor = "black";
+        document.getElementById("psych").style.color = "lime";
+        document.getElementById("psych").style.backgroundColor = "black";
+    }
+
+    function highlight_work() {
+        document.getElementById("work_exp").style.color = "lime";
+        document.getElementById("work_exp").style.backgroundColor = "black";
+    }
+
+    function highlight_res() {
+        document.getElementById("it_SS").style.color = "lime";
+        document.getElementById("it_SS").style.backgroundColor = "black";
+        document.getElementById("it_dept").style.color = "lime";
+        document.getElementById("it_dept").style.backgroundColor = "black";
+        document.getElementById("co_agent").style.color = "lime";
+        document.getElementById("co_agent").style.backgroundColor = "black";
+        document.getElementById("ps").style.color = "lime";
+        document.getElementById("ps").style.backgroundColor = "black";
+        document.getElementById("web_dev").style.color = "lime";
+        document.getElementById("web_dev").style.backgroundColor = "black";
+        document.getElementById("vid_intern").style.color = "lime";
+        document.getElementById("vid_intern").style.backgroundColor = "black";
+        document.getElementById("nccu").style.color = "lime";
+        document.getElementById("nccu").style.backgroundColor = "black";
+    }
+
+    function highlight_tmdbah() {
+        document.getElementById("tmdbah").style.color = "lime";
+        document.getElementById("tmdbah").style.backgroundColor = "black";
+    }
+
+    /*----------------------------------------------------------- H I G H _ L I G H T ---*/
+
+    /*----------------------------------------------------------- T Y P E _ W R I T E R ---*/
+    var i = 0;
+    var txt = 'My Name is TJ BAH. I am a Cyber Security Student, Developer and IT specialist focusing on creating, testing and analyzing technology solutions that improve efficiency, effectiveness, productivity and information security. Scroll down to navigate. Hover or click to reveal hidden text.'; /* The text */
+    var speed = 42; /* The speed/duration of the effect in milliseconds */
+
+    function typeWriter() {
+        if (i < txt.length) {
+            document.getElementById("name").innerHTML += txt.charAt(i);
+            i++;
+            setTimeout(typeWriter, speed);
+        }
+    }
+
+    function print_() {
+
+        document.getElementById("name2").innerHTML = '[ SQL | ASP.NET | C# | PHP | JavaScript / jQuery | CSS3 | HTML5 | XML ] <br/> [ Software Development Life Cycle ] <br/> [ Desktop & Laptop Setup and Configuration ] <br/> [ Troubleshooting & Preventive Maintenance ] <br/> [ Microsoft: Office Suite, Access, Visual Studio and Visio ] <br/> [ Thycotic: Secret Server ] <br/> [ Spiceworks ] <br/> [ Adobe: Photoshop ] <br/> [ Pro tools, Logic, Reason , FL Studio, Final Cut Pro ]';
+    }
+
+    function print_2() {
+
+        document.getElementById("name3").innerHTML = '[ Information Technology & System Software ] <br/> [ eBusiness Systems ] <br/> [ Database Management Systems ] <br/> [ Data Communications ] <br/> [ Information Systems Analysis, Design and Implementation ] <br/> [ Information Technology Security & Risk Management ]';
+    }
+
+    function print_3() {
+
+        document.getElementById("name4").innerHTML = '[ Strategic Management ] <br/> [ Operations Managment ] <br/> [ Mangerial Economics ] <br/> [ Finacial Management & Accounting ] <br/> [ Management & Organizational Behavior ] <br/> [ Psychology & Marketing ]';
+    }
+
+    function print_4() {
+
+        document.getElementById("name5").innerHTML = '[ Aug 2018 - Present ] <br/> + Research and develop self-help technology resources & documentation for distribution to call center employees.<br /> + Triage IT help desk tickets and document system infrastructure end-to-end.<br /> + Reconcile phone lines to devices and consolidate IT passwords to a single platform.<br /> + Patch call center workstations, client programs and provide break -fix support.<br /> + Provide general after-hours user administration.<br /> ';
+    }
+
+    function print_5() {
+
+        document.getElementById("name6").innerHTML = '[ May 2018 - Aug 2018 ] <br/> + Ran network cables and installed network ports. <br/> + Traced network cables to patch panel and switch using a tone generator.<br/> + Tested newly installed network port cables with cable tester.<br/> + Installed, setup, configured and troubleshooted desktop and laptop hardware and software.';
+    }
+
+    function print_6() {
+
+        document.getElementById("name7").innerHTML = '[ Apr 2018 - Present ] <br/> + Provide 1 on 1 Technical Support to our clients and visitors. <br/> + Install, setup, configure, and troubleshoot desktop / laptop hardware and software. <br/> + Create Data Backups, Restore Points & Disk Clones.';
+    }
+
+    function print_7() {
+
+        document.getElementById("name8").innerHTML = '[ Jan 2018 - Aug 2018 ] <br/> + Respond to inbound calls and/or alarm signals from client sites.<br/> + Establish, maintain and enhance new and existing client relationships.<br/> + Defuse escalated situations through empathy, sympathy, calm tone of voice and reassurance of timely resolution.<br/> + Create service tickets for client sites and workstation issues.<br/>';
+    }
+
+    function print_8() {
+
+        document.getElementById("name9").innerHTML = '[ Aug 2011 - Present ] <br/> + Develop websites, multimedia content, graphic design: typography, photography, corporate design and videography. <br/> + Design, configure, maintain, troubleshoot and optimize workstations for digital audio, video, and graphics production. <br/> + Manage audio, video, and graphics production projects.';
+    }
+
+    function print_9() {
+
+        document.getElementById("name10").innerHTML = '[ Dec 2015 - Feb 2016 ] <br/> + Filmed and edited training material for employee learning and development.';
+    }
+
+    function print_10() {
+
+        document.getElementById("name11").innerHTML = '[ Aug 2011 - Dec 2013 ] <br/> + Coordinated monthly meetings to distribute housing and academic information.<br/> + Planned and organized student programs and events. <br/> + Provided front desk and administrative support. <br/> + Conducted health and safety inspections. <br/> + Enforced residence policies. <br/> + Provided tutoring and technical assistance to residents.';
+    }
+
+    /* 
+init(`#element`, {
+  // required - for now, only accepting texts
+    strings: ['Dead simple animated typing.', 'No dependencies'],
+    //optional
+    typeSpeed: 55, //default
+    //optional
+    backSpeed: 30, //default
+    //optional
+    startDelay: 500, //default
+    //optional
+    backDelay: 500, //default
+    //optional
+    loop: false, //default
+    //optional    
+    showCursor: true, //default
+    //optional    
+    cursorChar: "|", //default
+    // optional callback called once the last string has been typed
+    onFinished: function(){}
+}); 
+
+</script>
+
+<script id="rendered-js">
+    /* 
+    init(`#element`, {
+      // required - for now, only accepting texts
+        strings: ['Dead simple animated typing.', 'No dependencies'],
+        //optional
+        typeSpeed: 55, //default
+        //optional
+        backSpeed: 30, //default
+        //optional
+        startDelay: 500, //default
+        //optional
+        backDelay: 500, //default
+        //optional
+        loop: false, //default
+        //optional    
+        showCursor: true, //default
+        //optional    
+        cursorChar: "|", //default
+        // optional callback called once the last string has been typed
+        onFinished: function(){}
+    }); 
+    */
+    ityped.init('#ityped', {
+      strings: ['Sweet & Easy.', 'No jQuery dependency.', 'Tiny size: <3kb.', 'Just install and Enjoy!'],
+      startDelay: 200,
+      loop: true });
+    //# sourceURL=pen.js
+        </script>
+
+
+<!--
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unkpkg.com/babel-standalone@6/babel.min.js"></script>
+-->
+
+<script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
+<script src="https://unpkg.com/ityped@0.0.8"></script>
+<!--------------------------------------------------------------------------------------- T I T L E --->
+<title>THE ART OF TRI_AGE</title>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--------------------------------------------------------------------- S C R O L L - D O W  N _ S T A R T ------->
+
+<div id="react"></div>
+
+<!-------------------------------------- B K G _ I M G _ C A P T I O N _ S U M M A R Y ------->
+<div class="bgimg-1">
+    <div class="caption">
+
+        <div class="cnt">
+            <h1>Hello, My Name is TJ BAH.</h1>
+            <h2><span id="ityped" class="ityped"></span></h2>
+            
+        </div>
+
+
+        <p style="color: white;">
+            
+            <button class="button" style="background-color:black; color:white;" onclick="typeWriter()">CLICK HERE</button><br/>
+            <br/>
+            <b id="name" onclick="highlight_name()"></b><br/>
+            
+        </p>
+        <br/>
+        
+    </div>
+</div>
+
+<!-------------------------------------------------------------- E D U C A T I O N  S E C T I O N _ S T A R T ------->
+
+<div style="cursor: crosshair; background-attachment: fixed; color: #777; background-color: white; text-align: center; padding: 1px 1px; text-align: justify;">
+    <h3 style="text-align: center;">E D U C A T I O N</h3>
+    <p class="p3">
+        <b style="background-color: black;" id="unc" onclick="highlight_unc()">University of North Carolina at Charlotte</b>, Charlotte NC<br/>
+        <b style="background-color: black;" id="uncc" onclick="highlight_unc()">Belk College of Business</b> <br/>
+        Bachelors of Science in <b style="background-color: black;" id="unccc" onclick="highlight_unc()">Business Administration</b><br/>
+        Major in <b style="background-color: black;" id="uncccc" onclick="highlight_unc()">Management Information Systems</b>
+    </p>
+</div>
+
+<!------------------------------------------------------------------ S K I L L S  &  C O U R S E _ W O R K ------->
+
+<!-------------------------------------- B K G _ I M G _ C A P T I O N ------->
+<div style="cursor: crosshair;"class="bgimg-2">
+    <div class="caption">
+        <span class="border" style="background-color: transparent; color: white;"><b id="sandc" onclick="highlight_sandc()">SKILLS & COURSEWORK</b></span>
+    </div>
+</div>
+
+<!--------------------------------------------------------------------------------------- S K I L L S _ L I N E --->
+
+<center style="color: #777777; background-color: white;">APPLICATIONS + PROGRAMMING LANGUAGES + METHODOLOGIES</center>
+
+<!---------------------------------------------------------------------------------- S K I L L S & C O U R S E _ W R K _ T A B L E --->
+<div style="position: relative;">
+    <div style="cursor: cell; background-attachment: fixed; max-width: 100%; height: auto; background-image: url('img/keyboard-wallpapers-30703-3742458.jpg'); color: lime; background-color: GrayText; text-align: center; padding: 1px 1px; text-align: center; ">
+        <br />
+        <button id="name2" class="button" style="background-color:black; color:white;" onclick="print_()">SKILLS</button><br />
+       <br/>
+        <button id="name3" class="button" style="background-color:black; color:white;" onclick="print_2()">IT COURSEWORK</button><br />
+        
+        <br />
+        <button id="name4" class="button" style="background-color:black; color:white;" onclick="print_3()">BUSINESS ADMINISTRATION COURSEWORK</button><br />
+        <br />
+       
+    
+    </div>
+
+    </div>
+    
+<!--------------------------------------------------------------------------------------- W R K _ H I S T O R Y _ L I N E --->
+
+<center style="color: #777777; background-color: white;">WORK HISTORY</center>
+
+<!-------------------------------------- W O R K _ E X P E R I E N C E  &  P R O J E C T S ----------->
+
+<!-------------------------------------- B K G _ I M G _ C A P T I O N ------->
+
+<div class="bgimg-3">
+    <div class="caption">
+        <span class="border" style="background-color: transparent; color: white; "><b id="work_exp" onclick="highlight_work()">WORK EXPERIENCE & PROJECTS</b></span>
+    </div>
+</div>
+
+<!--------------------------------------------------------------------------------------- W R K _ H I S T O R Y _ L I N E _ 2 --->
+
+<center style="color: #777777; background-color: white;">JOBS + INTERNSHIPS + CONTRACTS + VOLUNTEER & FREELANCE </center>
+
+<!-------------------------------------- B K G _ I M G _ C O N T A I N E R ------->
+<!--------------------------------------------------------------------------------------- W R K _ H I S T O R Y _ T A B L E --->
+<div style="position: relative;">
+
+    <div style="cursor: cell; background-attachment: fixed; color: black; max-width: 100%; height: 100%; background-image: url('img/keyboard-wallpapers-30703-3742458.jpg'); padding: 1px 1px; text-align: center; ">
+
+        <br />
+        <button id="name5" class="button" style="background-color:black; color:white;" onclick="print_4()">Iverify Security, Charlotte NC - Systems Analyst / IT Support Specialist; Contract </button><br />
+
+        <br />
+        <button id="name6" class="button" style="background-color:black; color:white;" onclick="print_5()">Iverify Security, Charlotte NC - IT Department Intern </button><br />
+
+        <br />
+        <button id="name8" class="button" style="background-color:black; color:white;" onclick="print_7()">Iverify Security, Charlotte NC - Protection Specialist Level II </button><br />
+
+        <br />
+        <button id="name7" class="button" style="background-color:black; color:white;" onclick="print_6()">Geek Squad, Charlotte NC - Consultation Agent </button><br />
+
+        <br />
+        <button id="name9" class="button" style="background-color:black; color:white;" onclick="print_8()">TMDBAH, Web Developer </button><br />
+
+        <br />
+        <button id="name10" class="button" style="background-color:black; color:white;" onclick="print_9()">Collabera, Charlotte NC - Video Production Intern </button><br />
+
+        <br />
+        <button id="name11" class="button" style="background-color:black; color:white;" onclick="print_10()">North Carolia Central University, Durham NC - Resident Advisor & Community Assistant </button><br />
+                 <br/>
+        </div>
+    </div>
+<!----------------------------------------------------------------- E N D _ P A G E-->
+
+<center style="color: #777777; background-color: white;">PORTFOLIO</center>
+
+<!-------------------------------------- B K G _ I M G _ C A P T I O N ------->
+<div class="bgimg-4">
+    <div class="caption">
+        <span class="border"><b id="tmdbah" onclick="highlight_tmdbah()">TMDBAH</b></span>
+    </div>
+
+</div>
+
+    <!--------------------------------------------------------------------------------------- D I A G R A M _ L I N E ------->
+
+    <center style="color: #777777; background-color: white;">DOCUMENTATION + ANALYSIS</center>
+
+    <div class="bgimg-5">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        
+            <!-- Trigger the Modal -->
+        <center><img id="myImg" src="img/IDF_Build_WEB_1-23-19.jpg" alt="Server Rack Diagram" style="width:100%;max-width:300px"></center>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+
+                <!-- The Close Button -->
+                <span class="close">&times;</span>
+
+                <!-- Modal Content (The Image) -->
+                <img class="modal-content" id="img01">
+
+                <!-- Modal Caption (Image Text) -->
+                <div id="caption"></div>
+
+
+            </div>
+       </div>
+   
+
+<!--------------------------------------------------------------------------------------- P O R T F O L I O _ L I N E ------->
+
+<center style="color: #777777; background-color: white;">P H O T O G R A P H Y</center>
+
+<!-------------------------------------------------------------------------------------- Slideshow container -->
+    <div class="slideshow-container">
+
+        <!---------------------------------------------------------------------------------- Full-width images with number and caption text -->
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 [50 mm]</div>
+            <img src="img/_MG_0124.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 [50 mm]</div>
+            <img src="img/_MG_0125.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 [50 mm]</div>
+            <img src="img/_MG_0046.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">4 [50 mm]</div>
+            <img src="img/_MG_0047.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">5 [50 mm]</div>
+            <img src="img/_MG_0048.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">6 [50 mm]</div>
+            <img src="img/_MG_0049.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">7 [50 mm]</div>
+            <img src="img/_MG_0094.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+        <div class="mySlides fade">
+        <div class="numbertext">8 [50 mm]</div>
+        <img src="img/_MG_0096.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+    
+
+    <div class="mySlides fade">
+        <div class="numbertext">9 [50 mm]</div>
+        <img src="img/_MG_0097.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">10 [50 mm]</div>
+        <img src="img/_MG_0098.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">11 [50 mm]</div>
+        <img src="img/_MG_0099.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">12 [50 mm]</div>
+        <img src="img/_MG_0100.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">13 [50 mm]</div>
+        <img src="img/_MG_0103.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">14 [50 mm]</div>
+            <img src="img/_MG_0044.JPG" style="width: 100%">
+            <div class="text"></div>
+        </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">15 [50 mm]</div>
+        <img src="img/_MG_0107.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">16 [50 mm]</div>
+        <img src="img/_MG_0142.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+    <div class="mySlides fade">
+        <div class="numbertext">17 [50 mm]</div>
+        <img src="img/_MG_0144.JPG" style="width: 100%">
+        <div class="text"></div>
+    </div>
+
+
+ 
+    <!---------------------------------------------------------------------------------------------- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<!--------------------------------------------------------------------------------------------------- The dots/circles -->
+<div style="text-align: center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+    <span class="dot" onclick="currentSlide(7)"></span>
+    <span class="dot" onclick="currentSlide(8)"></span>
+    <span class="dot" onclick="currentSlide(9)"></span>
+    <span class="dot" onclick="currentSlide(10)"></span>
+    <span class="dot" onclick="currentSlide(11)"></span>
+    <span class="dot" onclick="currentSlide(12)"></span>
+    <span class="dot" onclick="currentSlide(13)"></span>
+    <span class="dot" onclick="currentSlide(14)"></span>
+    <span class="dot" onclick="currentSlide(15)"></span>
+    <span class="dot" onclick="currentSlide(16)"></span>
+    <span class="dot" onclick="currentSlide(17)"></span>
+   
+
+</div>
+
+<!------------------------------------------------------- S L I D E R _ S C R I P T ------->
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+</script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+    </script>
+</body>
+</html>

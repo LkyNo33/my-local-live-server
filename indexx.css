@@ -1,0 +1,361 @@
+ /* ------------------------------------------------------------------------------------------- G L O B A L _ P A R A L L A X _ S T Y L E ---->  */
+ body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px "Lato", sans-serif;
+    color: #777;
+}
+
+/* ----------------------------------------------------------------------------------------- B K G _ S T Y L E ---->  */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+    position: relative;
+    opacity: .85;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ----------------------------------------------------------------------------------------- B K G _ I M G ' S ---->  */
+.bgimg-1 {
+    background-image: url("img/615504_366984070054201_618233153_o.jpg");
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url("img/_MG_0095.jpg");
+    min-height: 100%;
+}
+
+.bgimg-3 {
+    background-image: url("img/_MG_0103.JPG");
+    min-height: 100%;
+}
+
+.bgimg-4 {
+    background-image: url('img/665742_366984023387539_857536910_o.jpg');
+    min-height: 100%;
+}
+
+.bgimg-5 {
+    background-image: url('img/bg.jpg');
+    min-height: 100%;
+    min-width:100%;
+}
+
+/* ----------------------------------------------------------------------------------------- C A P T I O N _ S T Y L E ---->  */
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+/* ----------------------------------------------------------------------------------------- C A P / B O R D E R _ S T Y L E ---->  */
+    .caption span.border {
+        background-color: #111;
+        color: #fff;
+        padding: 14px;
+        letter-spacing: 10px;
+        
+    }
+
+/* ----------------------------------------------------------------------------------------- P A R A G R A P H _ S T Y L E S ---->  */
+h1 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 15px "Lato", sans-serif;
+    color: white;
+}
+
+h2 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 15px "Lato", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 15px "Lato", sans-serif;
+    color: #111;
+}
+
+.p3 {
+    color: black;
+    font: 15px "Lato", sans-serif;
+    text-align: center;
+}
+
+b:hover {
+    background-color: black;
+    color: lime;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 0px #999;
+}
+
+    .button:hover {
+        background-color: #3e8e41;
+    }
+
+    .button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px LIME;
+        transform: translateY(4px);
+    }
+/* ----------------------------------------------------------------------------------------- T A B L E _ S T Y L E S ---->  */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 0px solid lime;
+    text-align: center;
+    padding: 4px;
+}
+
+th:hover {
+    background-color: black;
+    opacity: 0.85;
+}
+
+/* -------------------------------------------------------------------- R E S P O N S I V E _ S T Y L E S + @ M E D I A _ Q U E R I E S ---->  */
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+/* If the screen size is 601px wide or more, set the font-size of styles to 20px */
+@media screen and (min-width: 601px) {
+    body, html, .p3, .caption span.border, h1, h2, h3 {
+        font-size: 18px;
+    }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of styles to 15px */
+@media screen and (max-width: 600px) {
+    body, html, .p3, .caption span.border, h1, h2, h3 {
+        font-size: 12px;
+    }
+}
+
+/* ----------------------------------------------------------------------------------------- S L I D E R _ S T Y L E ---->  */
+* {
+    box-sizing: border-box;
+}
+
+/*------------------------------------------------------------------------------------------------ Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/*--------------------------------------------------------------------------------------------- Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/*--------------------------------------------------------------------------------------------- Next + previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 38px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+/*---------------------------------------------------------------------------- Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/*-------------------------------------------------------- On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: lime;
+}
+
+/*--------------------------------------------------------------------------------------- Caption text */
+.text {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/*------------------------------------------------------------------------- Number text (1/3 etc) */
+.numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/*--------------------------------------------------------------------- The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 10px;
+    background-color: #777777;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: lime;
+}
+
+/*------------------------------------------------------------------- Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+    #myImg:hover {
+        opacity: 0.7;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+
+
+
+
+
+}

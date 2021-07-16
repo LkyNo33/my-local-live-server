@@ -1,0 +1,15 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Open TMDB.html",
+            "file": "c:\\Users\\tmdba\\OneDrive - University of North Carolina at Charlotte\\Desktop\\Live Server\\TMDB.html"
+        }
+    ]
+}
