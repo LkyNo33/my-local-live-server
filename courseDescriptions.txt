@@ -15,12 +15,16 @@ Automated approaches such as static code analysis and application scanning will 
 Learning objectives:
 
 ▪	Describe different types of attacks to applications and their characteristics.
-▪	Analyze the security of a software application in terms of first principles of secure software design (separation of domain, defense in depth, least privilege, isolation, simplicity, and IEEE top ten security design flaws)
-▪	Understand root causes of common application vulnerabilities, their exploitation techniques, and their mitigation methods (including OWASP top 10 and buffer overflow)
+▪	Analyze the security of a software application in terms of first principles of secure software design 
+    (separation of domain, defense in depth, least privilege, isolation, simplicity, and IEEE top ten security design flaws).
+▪	Understand root causes of common application vulnerabilities, their exploitation techniques, and their mitigation methods 
+    (including OWASP top 10 and buffer overflow)
 ▪	Understand code of ethics for security research, including responsible disclosure and electronic civil disobedience.
-▪	Apply secure programming technique to produce applications without introducing common vulnerabilities (e.g. data sanitization, access control, proper use of crypto libraries, defensive use of libraries, database security)
+▪	Apply secure programming technique to produce applications without introducing common vulnerabilities 
+    (e.g. data sanitization, access control, proper use of crypto libraries, defensive use of libraries, database security)
 ▪	Perform dynamic analysis (e.g. using ZAP) to identify vulnerabilities in web applications.
-▪	Apply cyber defense methods to prepare an application to repel attacks (e.g. defense in depth, least privilege, and isolation)
+▪	Apply cyber defense methods to prepare an application to repel attacks 
+    (e.g. defense in depth, least privilege, and isolation)
 ▪	Describe the roles of secure software design and development processes that lead to secure software. (e.g. SDLC, Threat modeling, BSIMM)
 ▪	Understand vulnerabilities inherent in programming languages and frameworks.
 ▪	Describe concepts of software security analysis tools and techniques.
@@ -36,7 +40,7 @@ Examines the issues related to network based application development.
 Topics include: introduction to computer networks, web technologies 
 and standards, network based programming methodologies, languages, tools and standards.
 
-- Introduction to web applications , MVC Pattern, Netbean and Tomcat
+- Introduction to web applications , MVC Pattern, Netbeans and Tomcat
 - HTML5 and CSS3, How to Develop Servlets
 - Developing JSP , Session Management
 - Expression Language & JSTL
@@ -45,6 +49,28 @@ and standards, network based programming methodologies, languages, tools and sta
 ***********************************
 *ITIS 6320 - Cloud Data Storage (3)
 ***********************************
+
+Syllabus Description:
+
+This course will cover the design and implementation of cloud storage and big data
+systems and the architecture and characteristics of components on which cloud storage
+systems are built. Topics to be covered include storage device hardware, file systems,
+mirroring and RAID, array coding techniques, storage area networks (SAN), network attached
+storage (NAS), cloud storage and big data, DB in clouds, relational storage
+models, key value stores and other No-SQL mechanisms, data consistency and
+availability in the cloud, cloud data privacy and security.
+
+Course Objectives:
+
+• Analyze storage device hardware and file systems
+• Evaluate RAID array coding techniques and application to cloud storage systems
+• Analyze various storage systems such as storage area networks (SAN) and network attached
+  storage (NAS)
+• Develop applications based on Hadoop Distributed File System (HDFS), GFS, Windows
+  Azure file systems, Amazon S3 file systems
+• Develop applications based on MapReduce and Spark
+• Develop applications based on BigQuery, Dataflow, Google DataStudio, and TensorFlow
+• Describe cloud data privacy and security challenges
 
 =============
 Undergrad Lvl --------------------------------------------------------------------------------------------------------------------------------
@@ -63,7 +89,8 @@ and management strategies, and an exploration of a variety of technologies invol
 
 The specific objectives of this course are:
 
-- To provide students with a broad understanding of the business drivers and technological infrastructure that makes e-commerce and e-business possible
+- To provide students with a broad understanding of the business drivers and technological infrastructure that makes e-commerce 
+  and e-business possible
 - To expose students to the vocabulary they need to meaningfully discuss current developments in e-commerce and e-business
 - To develop practical skills in using Web programming technologies to develop e-business solutions
 - To critically evaluate e-business models and Web design choices of organizations
@@ -98,3 +125,5 @@ Catalog Description:
 This course introduces the theory and application of programming logic, algorithm development, and
 concepts for business applications. Concepts introduced include data types, constants, variables, assignment statements,
 arithmetic expressions, string expressions, logical expressions, if statements, case statements, loop structures, and arrays.
+
+- HTML / CSS / JS 
