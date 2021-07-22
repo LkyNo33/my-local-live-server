@@ -3,7 +3,7 @@ Graduate Lvl
 ============
 
 ********************************************
-ITIS 5221 - Secure Prog / Penetr Testing (3)
+ITIS 5221 - Secure Prog / Pen Testing (3)
 ********************************************
 ---------------------
 Syllabus Description:
